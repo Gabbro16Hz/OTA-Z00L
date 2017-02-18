@@ -2,12 +2,411 @@
  ▼ Resurrection Remix Nougat Ver 5.8.1 Changelog
 
 
- ▼ 02/13/2017
+ ▼ 02/18/2017
+
+
+ ▪ project android/
+ ▪ 0bf770a cm: Remove ahbottomnavigation library
+
+ ▪ project art/
+ ▪ 8b76e42 Disable FDO_SUPPORT [1/2]
+
+ ▪ project build/
+ ▪ ed9dc49 Build : Evo-merge - Switch to rebased
+
+ ▪ project device/asus/msm8916-common/
+ ▪ c4441e2 msm8916-common: init: Add dalvik configuration for 1GB ram devices
+ ▪ 638ee66 msm8916-common: Update partition sizes from 8GB model
+
+ ▪ project external/DUtils/
+ ▪ a0ccca8 Separate one handed mode icons [2/2]
+
+ ▪ project external/skia/
+ ▪ 3692d49 Skia: Disable FDO_SUPPORT [2/2] *this allows ccache to work on art/skia and increases build times by 10+ minutes
+
+ ▪ project frameworks/av/
+ ▪ fdb0874 Forward Port: Add Camera sound toggle [3/3]
+
+ ▪ project frameworks/base/
+ ▪ 95a8e66 Base: Update navigation button sizes and some drawables
+ ▪ 6f72aa7 Expose lockscreen bottom shorcut phone inner bg and text colors
+ ▪ 40544be Fix build after rebase
+ ▪ 3d16128 Base : Evo-merge - Switch to rebased
+
+ ▪ project frameworks/native/
+ ▪ dcd12e3 Fix one handed mode triggering tapjacking protection *also clean up pointless whitespace from one hand merge
+ ▪ f701ae7 Add new feature of One-hand UI Mode [2/3]
+ ▪ 8a4d6f3 OMS-N: installd: add command 'rmidmap'
+
+ ▪ project packages/apps/Contacts/
+ ▪ 64c4ae1 Contacts : Evo-merge - Switch to rebased
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ e5b6dcc Themes: Define back arrow tint color for themes
+ ▪ beeea9e ContactsCommon : Evo-merge - Switch to rebased
+
+ ▪ project packages/apps/DUI/
+ ▪ becb1c7 Update navigation button sizes and some drawables
+ ▪ 5390e06 Separate one handed mode icons [1/2]
+
+ ▪ project packages/apps/Dialer/
+ ▪ 85be705 Dialer : Evo-merge - Switch to rebased
+
+ ▪ project packages/apps/Messaging/
+ ▪ 0a5e5a6 [5/6] Breathing missedcall/sms/voicemail
+
+ ▪ project packages/apps/PhoneCommon/
+ ▪ c00ed20 PhoneCommon : Evo-merge - Switch to rebased
+
+ ▪ project packages/apps/Settings/
+ ▪ fd6cb62 Settings: Evo-merge - Switch to rebased
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 765f0e6 SetupWizard: Include tests makefile
+
+ ▪ project packages/apps/Snap/
+ ▪ f098f1a Snap: CaptureModule: fix preview being invisible on first start
+ ▪ 21bc834 CaptureModule: Fix UI.
+ ▪ ec6475e Snap: CaptureModule: re-apply flash setting when disabling manual iso
+ ▪ f17e127 Snap: CaptureModule: check if ZSL is supported before using it
+ ▪ 27f8676 Snap: CaptureModule: enable noise reduction
+ ▪ 5710a02 Snap: CaptureModule: enable redeye reduction
+ ▪ b6b13fc Snap: CaptureModule: enable and fix manual iso control
+ ▪ ebd135d Snap: CaptureUI: remove camera2 option
+ ▪ b8af8f1 Snap: detect and use Camera2 if available
+
+ ▪ project packages/apps/StorageManager/
+ ▪ 195baec Expose storage manager settings colors
+
+ ▪ project packages/services/Telecomm/
+ ▪ 10fcc02 [2/6] Breathing missedcall/sms/voicemail
+
+ ▪ project packages/services/Telephony/
+ ▪ 727f23a [3/6] Breathing missedcall/sms/voicemail
+ ▪ d355384 Fix Lte Tile
+
+ ▪ project system/core/
+ ▪ 5c0fc72 Lockscreen charging info: real time values [2/4]
+
+ ▪ project system/sepolicy/
+ ▪ fdbb439 Add policy to SELinux to allow ViPER4Android in enforcing mode
+ ▪ 4e02d8a OMS7-N: Add service 'overlay' to service_contexts
+ ▪ fa7ebe9 RR: 7.1 fix
+ ▪ b8bdccb sepolicy: Allow platform_app to run su_exec() (1/2)
+ ▪ 746fc82 sepolicy: Allow system_server to run su_exec() (1/2)
+ ▪ 247cd63 sepolicy: Allow system_app to run su_exec()
+ ▪ e4ab1c0 sepolicy: Allow remount /system
+
+ ▪ project vendor/cm/
+ ▪ a11ca29 Update github changelog
+ ▪ a1faf3b Update version 5.8.2
+
+ ▼ 02/17/2017
+
+
+ ▪ project device/qcom/sepolicy/
+ ▪ e4fb9ea Bluetooth: Remove stray characters
+
+ ▪ project frameworks/opt/cards/
+ ▪ 8d54ddf Merge pull request #1 from ashoksoni/nougat
+ ▪ 645b533 Fix card header title centering when panel size != 100%
+
+ ▪ project hardware/qcom/fm/
+ ▪ d7414fe Automatic translation import
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ 8a090b9 Automatic translation import
+
+ ▪ project packages/apps/CMFileManager/
+ ▪ cdac44d Automatic translation import
+
+ ▪ project packages/apps/CMUpdater/
+ ▪ 6a916ab Automatic translation import
+
+ ▪ project packages/apps/Calendar/
+ ▪ 2779aa2 Automatic translation import
+
+ ▪ project packages/apps/Camera2/
+ ▪ 90e6bfb Automatic translation import
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ bd333cf Automatic translation import
+
+ ▪ project packages/apps/CertInstaller/
+ ▪ 2062efc Automatic translation import
+
+ ▪ project packages/apps/Eleven/
+ ▪ f9fe670 Automatic translation import
+
+ ▪ project packages/apps/Email/
+ ▪ af5fd12 Automatic translation import
+
+ ▪ project packages/apps/EmergencyInfo/
+ ▪ 5f291a2 Automatic translation import
+
+ ▪ project packages/apps/Gallery2/
+ ▪ 987562c Automatic translation import
+
+ ▪ project packages/apps/Gello/
+ ▪ dec5cbc Automatic translation import
+
+ ▪ project packages/apps/HTMLViewer/
+ ▪ b947f4c Automatic translation import
+
+ ▪ project packages/apps/KeyChain/
+ ▪ 25cd354 Automatic translation import
+
+ ▪ project packages/apps/ManagedProvisioning/
+ ▪ e3d6ed5 Automatic translation import
+
+ ▪ project packages/apps/Messaging/
+ ▪ 6a0f388 Automatic translation import
+
+ ▪ project packages/apps/Nfc/
+ ▪ 9748287 Automatic translation import
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ 6c0e26f Automatic translation import
+
+ ▪ project packages/apps/Recorder/
+ ▪ 1b9ae02 Automatic translation import
+
+ ▪ project packages/apps/SafetyRegulatoryInfo/
+ ▪ e2b1567 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 4813933 Automatic translation import
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ fc2ca45 SetupWizard: Allow skip of optional screens
+ ▪ 4161a57 Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 198d1f8 Automatic translation import
+
+ ▪ project packages/apps/Stk/
+ ▪ 05fec2e Automatic translation import
+
+ ▪ project packages/apps/Tag/
+ ▪ bc4fdb8 Automatic translation import
+
+ ▪ project packages/apps/Terminal/
+ ▪ 476eed2 Automatic translation import
+
+ ▪ project packages/apps/TvSettings/
+ ▪ 03fa940 Automatic translation import
+
+ ▪ project packages/apps/UnifiedEmail/
+ ▪ e66a6c4 Automatic translation import
+
+ ▪ project packages/apps/WallpaperPicker/
+ ▪ 235345a Automatic translation import
+
+ ▪ project packages/inputmethods/LatinIME/
+ ▪ 95836eb Automatic translation import
+
+ ▪ project packages/providers/BookmarkProvider/
+ ▪ cb94ffa Automatic translation import
+
+ ▪ project packages/providers/CalendarProvider/
+ ▪ 9d234c9 Automatic translation import
+
+ ▪ project packages/providers/CallLogProvider/
+ ▪ c09b8a7 Automatic translation import
+
+ ▪ project packages/providers/ContactsProvider/
+ ▪ b57ce09 Automatic translation import
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ e3b13c9 Automatic translation import
+
+ ▪ project packages/providers/MediaProvider/
+ ▪ 8cb59e5 Automatic translation import
+
+ ▪ project packages/providers/TelephonyProvider/
+ ▪ 4cccef4 Automatic translation import
+
+ ▪ project packages/providers/UserDictionaryProvider/
+ ▪ e1a7789 Automatic translation import
+
+ ▪ project packages/resources/devicesettings/
+ ▪ b9a3008 Automatic translation import
+
+ ▪ project packages/screensavers/Basic/
+ ▪ 4e39499 Automatic translation import
+
+ ▪ project packages/screensavers/PhotoTable/
+ ▪ f99b33f Automatic translation import
+
+ ▪ project packages/services/CMAudioService/
+ ▪ e953031 Automatic translation import
+
+ ▪ project packages/services/Telecomm/
+ ▪ 07399be Automatic translation import
+
+ ▪ project packages/services/Telephony/
+ ▪ 5163191 Automatic translation import
+
+ ▪ project packages/wallpapers/LivePicker/
+ ▪ 1717578 Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ d5ca09b Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+ ▪ 60dd98e Automatic translation import
+
+ ▼ 02/16/2017
+
+
+ ▪ project device/asus/msm8916-common/
+ ▪ ebf02f2 msm8916-common: Allow rmt_storage to use dac_override, net_raw capabilities
+
+ ▪ project device/qcom/common/
+ ▪ cb1c51f Revert "extractors: Add aptX & aptXHD to confirmed platforms"
+
+ ▪ project frameworks/base/
+ ▪ 071683e Add back data saver long click action
+
+ ▪ project packages/apps/CMParts/
+ ▪ be502fd Automatic translation import
+
+ ▪ project vendor/cm/
+ ▪ f5eeaeb Revert "Revert "Gello: fixed""
+ ▪ 0ce00d1 Update github changelog
+
+ ▪ project vendor/cmsdk/
+ ▪ 4b726a1 RemotePreferenceManager: Fix receiver registration issues.
+
+ ▼ 02/15/2017
+
+
+ ▪ project build/
+ ▪ 6e38819 core: Output full OTA package path to terminal
+ ▪ de7eac8 Revert "Allow to force disable block based OTAs"
+ ▪ 513a1e8 Allow to force disable block based OTAs
+ ▪ e6970b4 releasetools: Generate recovery-from-boot.p with bsdiff if necessary
+ ▪ 4ccb660 dumpvar: Dump RECOVERY_VARIANT if not empty
+ ▪ c07ae38 bacon: strip absolute PRODUCT_OUT path from md5sum file
+ ▪ 4c892a9 Add dumpvar for WITH_SU
+
+ ▪ project device/qcom/common/
+ ▪ 8685a57 cryptfs_hw: Move to vendor/qcom/opensource/cryptfs_hw
+
+ ▪ project external/e2fsprogs/
+ ▪ 016c2c7 e2fsck: Add e2fsck_static
+
+ ▪ project external/ntfs-3g/
+ ▪ 5effca1 Loaded the fuse kernel module with no environment
+
+ ▪ project frameworks/base/
+ ▪ 9fa418b Show infinity for large notification counts
+ ▪ c26d671 Don't reposition the clock when pulling down the notification bar
+ ▪ 671b088 Automatic translation import
+ ▪ 9da4680 Automatic translation import
+
+ ▪ project frameworks/native/
+ ▪ 267a2e8 sf: fixes for HWC2
+
+ ▪ project hardware/libhardware/
+ ▪ a9bb3f7 hardware: power: Remove POWER_HINT_AUDIO
+ ▪ fcd7a60 Revert "power: Add support for camera preview in powerHAL"
+
+ ▪ project packages/apps/CMParts/
+ ▪ 5745690 CMParts: strings: Fix indentation
+ ▪ d0cb33a CMParts: gestures: Specify a qualified user for update broadcast
+ ▪ 570b5e5 Automatic translation import
+
+ ▪ project packages/apps/Contacts/
+ ▪ b59f482 Improve CAF strings
+ ▪ 80a82b0 Automatic translation import
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ e15f1f5 Automatic translation import
+ ▪ 00d6890 Improve CAF strings
+
+ ▪ project packages/apps/Dialer/
+ ▪ 7cf8f61 Automatic translation import
+ ▪ cc91b7a Fix tab layout for DSDA.
+ ▪ 2d4800d Automatic translation import
+ ▪ dbd2df8 Improve CAF strings
+ ▪ a07aadb Automatic translation import
+ ▪ 58f308b Automatic translation import
+ ▪ f4ee8ae Automatic translation import
+ ▪ 6188691 Automatic translation import
+
+ ▪ project packages/apps/PhoneCommon/
+ ▪ 54ff9b7 Automatic translation import
+ ▪ 3fb43dd Automatic translation import
+ ▪ 48d0efd Automatic translation import
+ ▪ 3082767 Automatic translation import
+ ▪ eb4e879 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 64d21c0 Track RemotePreferenceManager API changes.
+ ▪ edde204 Automatic translation import
+
+ ▪ project packages/providers/ContactsProvider/
+ ▪ c881eba dbhelper: fix schema disaster from pre-cafrebase repo
+
+ ▪ project system/bt/
+ ▪ e999a15 Revert "Bluetooth-Wipower: Enable WiPower feature."
+
+ ▪ project system/extras/
+ ▪ b76b440 extras: Remove su, we have our own
+
+ ▪ project system/vold/
+ ▪ 25ea9c3 vold: Update path to cryptfs_hw
+
+ ▪ project vendor/cmsdk/
+ ▪ e0fde0e Automatic translation import
+
+ ▼ 02/14/2017
 
 
  ▪ project bootable/recovery/
- ▪ e946931 Rename process_key to ProcessKey
- ▪ 54886fb Fix bldr msg file open mode when offset specified
+ ▪ 34a4e01 Rename process_key to ProcessKey
+ ▪ 6d1945e Fix bldr msg file open mode when offset specified
+
+ ▪ project frameworks/base/
+ ▪ 614afdb Automatic translation import
+
+ ▪ project hardware/qcom/bootctrl/
+ ▪ 0a8485b bootctl: use TARGET_RECOVERY_UPDATER_LIBS macro for linking
+
+ ▪ project hardware/qcom/fm/
+ ▪ 63717c4 jni: Confine the firmware-load skipping to the actual loading
+
+ ▪ project hardware/qcom/media/
+ ▪ c8a7605 media: add missing 8952 symlink
+
+ ▪ project hardware/ril-caf/
+ ▪ 927a52d ril: Setting ril to v10 or v11 serves no purpose
+
+ ▪ project packages/apps/CMUpdater/
+ ▪ 7187ed6 Automatic translation import
+
+ ▪ project packages/apps/Eleven/
+ ▪ abc9ded Automatic translation import
+
+ ▪ project packages/apps/Recorder/
+ ▪ 7a10f08 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 097a5d6 Automatic translation import
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ d4cea55 SetupWizard: Part 2: Implement new OOBE using custom wizard manager
+
+ ▪ project packages/services/Telephony/
+ ▪ aa8becd Telephony: Fix qtistrings
+ ▪ 83008b2 Telephony: Fix qtistrings
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ 2a96249 Automatic translation import
+
+ ▼ 02/13/2017
+
 
  ▪ project build/
  ▪ 2714fc8 Merge pull request #24 from j144df/patch-1
@@ -30,6 +429,9 @@
  ▪ project packages/apps/Settings/
  ▪ 913acec Automatic translation import
  ▪ 6acd833 Settings: Update maintainer lists for Android One 2'nd (seed) (#693)
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 3593f03 SetupWizard: Part 1: Initial wizard manager conversion
 
  ▼ 02/12/2017
 
