@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+    <Nightly>
+        <Z00T>
+            <Filename>RR-N-v5.8.0-20170213-Z00T-OFFICIAL.zip</Filename>
+            <RomUrl
+                id="rom"
+                title="Rom"
+                description="Download latest version">https://sourceforge.net/projects/resurrectionremix/files/Z00T/</RomUrl>
+            <GappsUrl
+                id="gapps"
+                title="Google Apps"
+                description="Download Google Apps">http://bit.ly/2gY1FHw</GappsUrl>
+            <xdaUrl
+                id="xda"
+                title="XDA"
+                description="XDA Thread">https://forum.xda-developers.com/zenfone-2-laser/development/rom-resurrection-remix-n-t3509698</xdaUrl>
+            <donationUrl
+                id="donation"
+                title="Donations"
+                description="">https://goo.gl/DS0iqC</donationUrl>
+	</Z00T>
+	 <Z00L>
+            <Filename>RR-N-v5.8.0-20170203-Z00L-OFFICIAL.zip</Filename>
+            <RomUrl
+                id="rom"
+                title="Rom"
+                description="Download latest version">https://sourceforge.net/projects/resurrectionremix/files/Z00L/</RomUrl>
+            <GappsUrl
+                id="gapps"
+                title="Google Apps"
+                description="Download Google Apps">http://bit.ly/2gY1FHw</GappsUrl>
+            <xdaUrl
+                id="xda"
+                title="XDA"
+                description="XDA Thread">https://forum.xda-developers.com/zenfone-2-laser/development/rom-resurrection-remix-n-t3509698</xdaUrl>
+            <donationUrl
+                id="donation"
+                title="Donations"
+                description="">https://goo.gl/DS0iqC</donationUrl>
+	</Z00L>
+    </Nightly>
+</SlimOTA>
+

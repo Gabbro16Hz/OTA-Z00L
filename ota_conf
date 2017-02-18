@@ -1,0 +1,7 @@
+ota_url=https://raw.githubusercontent.com/Fabb2303/OTA/master/ota.xml
+release_type=Nightly
+device_name=ro.rr.device
+version_source=ro.modversion
+version_delimiter=-
+version_position=3
+version_format=yyyyMMdd
